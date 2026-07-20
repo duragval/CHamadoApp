@@ -1,0 +1,40 @@
+//lembretes
+
+esse estudo é uma revisao de 
+array
+conversao
+datetime
+diretorio
+linq
+tratarexcecao
+
+//app de chamado
+
+Criar classe pessoa (nome, nascimento, cpf)
+>Criar classe tecnico (id, funcaoDeTrabalho)
+>Criar classe funcionario (id, departamento)
+
+
+Criar classe chamado (codigo) 
+
+
+// como funciona o codigo 
+
+o programa vai pedir sua identificação (id)
+
+se funcionario:
+. funcionario devera escolher qual o tipo de problema ele requer solução.
+. funcionario devera especificar o problema que esta enfrentando.
+. o sistema apresentará um botao de confirmação passando informações para o funcionario
+. informaçoes essas sendo nome, departamento, informações da solictação, data e hora
+. se a resposta for nao a confirmação, retornar ao menu de escolher o problema
+. se a resposta for sim a confirmação, o sistema deve anotar as informaçoes e salvar em um arquivo txt no computador
+
+se tecnico:
+. tecnico devera ver uma lista de chamados que foram feitos
+. apos isso, tecnico devera sobrescrever o chamado com a atualizaçao
+. atualizaçao sendo "em andamento" ou "resolvido"
+. toda sobrescrita devera informar o nome do tecnico, comentario, data e hora
+. o sistema apresentara um botao de confirmação passando o comentario e o status da atualização
+. se a resposta for nao a confirmação, retornar ao menus de atualizaçao
+. se a resposta for sim a confirmação, o sistema deve sobrescrever as informações e salvar o arquivo txt
