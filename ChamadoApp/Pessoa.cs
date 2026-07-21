@@ -5,7 +5,24 @@ using System.Text;
 
 namespace ChamadoApp
 {
+    public class Chamado()
+    {
+        public void MostraTipo()
+        {
+            List<string> tipos = new List<string> { "0.Software", "1.Hardware", "2.Outros" };
 
+            foreach (string tipo in tipos)
+            {
+                Console.WriteLine($"{tipo}\n");
+            }
+        }
+
+        public void AddNota()
+        {
+            Console.WriteLine("Digite o motivo do chamado:\n");
+            string nota = Console.ReadLine();
+        }
+    }
     abstract class Pessoa
     {
 
@@ -39,7 +56,19 @@ namespace ChamadoApp
             Console.WriteLine($"--INFORMAÇÕES--\nNome:{Nome}\nId:{Id}\nDepartamento:{Departamento}\n");
         }
 
-        public void AbrirChamado() { }
+        public void AbrirChamado()
+        {
+            Chamado x = new Chamado();
+            Console.WriteLine("Para abertura de chamado, selecine o tipo de problema que você quer resolver\n");
+            x.MostraTipo();
+            var opcao = Console.ReadLine();
+            var tipoEscolhido = opcao;
+            Console.WriteLine("Digite o motivo do chamado:\n");
+            string nota = Console.ReadLine();
+            string caminhoNota = @"C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\chamado\chamado.txt";
+            File.AppendAllText(caminhoNota, nota);
+            Console.WriteLine("Arquivo salvo com sucesso");
+        }
 
     }
     internal class Tecnico : Pessoa 
@@ -56,5 +85,7 @@ namespace ChamadoApp
         {
             Console.WriteLine($"--INFORMAÇÕES--\nNome:{Nome}\nId:{Id}\nFunção:{Funcao}\n");
         }
+
+        public void AtendeChamado() { }
     }
 }

@@ -12,3 +12,18 @@ C:\Users\varle\OneDrive\Documentos\nextwavecsharp\ChamadoApp\ChamadoApp\obj\Debu
 C:\Users\varle\OneDrive\Documentos\nextwavecsharp\ChamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.pdb
 C:\Users\varle\OneDrive\Documentos\nextwavecsharp\ChamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.genruntimeconfig.cache
 C:\Users\varle\OneDrive\Documentos\nextwavecsharp\ChamadoApp\ChamadoApp\obj\Debug\net10.0\ref\ChamadoApp.dll
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\bin\Debug\net10.0\ChamadoApp.exe
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\bin\Debug\net10.0\ChamadoApp.deps.json
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\bin\Debug\net10.0\ChamadoApp.runtimeconfig.json
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\bin\Debug\net10.0\ChamadoApp.dll
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\bin\Debug\net10.0\ChamadoApp.pdb
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.AssemblyInfoInputs.cache
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.AssemblyInfo.cs
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.csproj.CoreCompileInputs.cache
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.sourcelink.json
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.dll
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\refint\ChamadoApp.dll
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.pdb
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ChamadoApp.genruntimeconfig.cache
+C:\Users\varlei.060219\Desktop\Nova pasta\poo\ChamadoApp\CHamadoApp\ChamadoApp\obj\Debug\net10.0\ref\ChamadoApp.dll
