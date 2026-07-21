@@ -8,9 +8,6 @@ namespace ChamadoApp
 
     abstract class Pessoa
     {
-        public Pessoa()
-        {
-        }
 
         public Pessoa(string nome, string nascimento, long cpf)
         {
@@ -29,23 +26,24 @@ namespace ChamadoApp
 
     internal class Funcionario : Pessoa 
     { 
-        public Funcionario() { } 
         public Funcionario(string nome, string nascimento, long cpf, int id, string departamento) : base(nome, nascimento, cpf) 
         { 
             this.Id = id; 
-            this.Departameto = departamento; 
+            this.Departamento = departamento; 
         } 
         public int Id { get; set; } 
-        public string Departameto { get; set; }
+        public string Departamento { get; set; }
 
         public override void Info()
         {
-            Console.WriteLine($"--INFORMAÇÕES--\nNome:{Nome}\nId:{Id}\nDepartamento:{Departameto}\n");
+            Console.WriteLine($"--INFORMAÇÕES--\nNome:{Nome}\nId:{Id}\nDepartamento:{Departamento}\n");
         }
+
+        public void AbrirChamado() { }
+
     }
     internal class Tecnico : Pessoa 
-    { 
-        public Tecnico() { } 
+    {
         public Tecnico(string nome, string nascimento, long cpf, int id, string funcao) : base(nome, nascimento, cpf)
         {
             this.Id = id; 
