@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\varlei.060219\\.nuget\\packages\\": {},
+    "C:\\Users\\varle\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\ChamadoApp.csproj",
+      "projectUniqueName": "C:\\Users\\varle\\OneDrive\\Documentos\\nextwavecsharp\\ChamadoApp\\ChamadoApp\\ChamadoApp.csproj",
       "projectName": "ChamadoApp",
-      "projectPath": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\ChamadoApp.csproj",
-      "packagesPath": "C:\\Users\\varlei.060219\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\obj\\",
+      "projectPath": "C:\\Users\\varle\\OneDrive\\Documentos\\nextwavecsharp\\ChamadoApp\\ChamadoApp\\ChamadoApp.csproj",
+      "packagesPath": "C:\\Users\\varle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\varle\\OneDrive\\Documentos\\nextwavecsharp\\ChamadoApp\\ChamadoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\varlei.060219\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\varle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
