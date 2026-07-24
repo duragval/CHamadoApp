@@ -9,7 +9,7 @@ namespace ChamadoApp
     abstract class Pessoa
     {
 
-        public Pessoa(int id, string nome, string nascimento, string cpf)
+        protected Pessoa(int id, string nome, string nascimento, string cpf)
         {
             this.Id = id;
             this.Nome = nome;
@@ -24,13 +24,15 @@ namespace ChamadoApp
                 throw new ArgumentException("Data de nascimento inválida. Use o formato dd/MM/yyyy.");
             }
 
-            Nascimento = dataConvertida;
+            this.Nascimento = dataConvertida;
 
             var cpfLimpo = new string(cpf.Where(char.IsDigit).ToArray());
             if (string.IsNullOrEmpty(cpfLimpo) || cpfLimpo.Length != 11)
             {
                 throw new ArgumentException("CPF inválido. Informe 11 dígitos numéricos.");
             }
+
+            this.Cpf = cpfLimpo;
         }
 
         internal int Id { get; }
@@ -42,22 +44,30 @@ namespace ChamadoApp
 
     internal class Funcionario : Pessoa 
     { 
-        public Funcionario(string nome, DateOnly nascimento, string cpf, int id, string departamento) : base(id, nome, nascimento, cpf) 
+        public Funcionario(int id, string nome, string nascimento, string cpf, string departamento) : base(id, nome, nascimento, cpf) 
         { 
-            this.Departamento = departamento; 
+            if ( string.IsNullOrWhiteSpace(departamento))
+            {
+                throw new ArgumentException("Departamento não pode ser nulo ou vazio");
+            }
+
+            this.Departamento = departamento;
         } 
-        public string Departamento { get; set; }
-
-
+        public string Departamento { get; }
     }
+
     internal class Tecnico : Pessoa 
     {
-        public Tecnico(string nome, DateOnly nascimento, string cpf, int id, string funcao) : base(id, nome, nascimento, cpf)
+        public Tecnico(int id, string nome, string nascimento, string cpf, string funcao) : base(id, nome, nascimento, cpf)
         {
+            if (string.IsNullOrWhiteSpace(funcao))
+            {
+                throw new ArgumentException("Função não pode ser nula ou vazia");
+            }
+
             this.Funcao = funcao; 
         }
 
-        public string Funcao { get; set; }
-
+        public string Funcao { get; }
     }
 }
