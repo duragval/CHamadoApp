@@ -8,7 +8,7 @@ namespace ChamadoApp
     {
         private readonly string _diretorio;
 
-        public ChamadoService(string diretorio = "Chamados")
+        public ChamadoService(string diretorio = "chamados_registro")
         {
             _diretorio = diretorio;
             Directory.CreateDirectory(_diretorio);

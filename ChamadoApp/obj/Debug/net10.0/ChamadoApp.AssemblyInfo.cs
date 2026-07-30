@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChamadoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63cf731f202118de5fee4255a10b9a6a51814fdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ff4dc82431e409dabbe7afda6971b1f71ce8390")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChamadoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChamadoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|c:\\users\\varlei.060219\\desktop\\nova pasta\\poo\\chamadoapp\\chamadoapp\\chamadoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|c:\\users\\varlei.060219\\desktop\\nova pasta\\poo\\chamadoapp\\chamadoapp\\chamadoapp\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|solutionrelative:chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|c:\\users\\varlei.060219\\desktop\\nova pasta\\poo\\chamadoapp\\chamadoapp\\chamadoapp\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|c:\\users\\varlei.060219\\desktop\\nova pasta\\poo\\chamadoapp\\chamadoapp\\chamadoapp\\chamadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F727A24-E27D-820F-422E-C4BC5FEF98AC}|ChamadoApp.csproj|solutionrelative:chamadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chamado.cs",
+              "DocumentMoniker": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\Chamado.cs",
+              "RelativeDocumentMoniker": "Chamado.cs",
+              "ToolTip": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\Chamado.cs",
+              "RelativeToolTip": "Chamado.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC4AAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:21:11.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:19:20.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChamadoService.cs",
+              "DocumentMoniker": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\ChamadoService.cs",
+              "RelativeDocumentMoniker": "ChamadoService.cs",
+              "ToolTip": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\ChamadoService.cs",
+              "RelativeToolTip": "ChamadoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T18:18:59.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
               "ToolTip": "C:\\Users\\varlei.060219\\Desktop\\Nova pasta\\poo\\ChamadoApp\\CHamadoApp\\ChamadoApp\\Menu.cs",
               "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAIwNMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowBIBAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-27T20:04:04.875Z",
               "EditorCaption": ""

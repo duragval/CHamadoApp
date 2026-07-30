@@ -1,0 +1,10 @@
+Id=2
+Tipo=Hardware
+Descricao=meu pc ta com a tela piscando
+NomeFuncionario=Varlei
+Departamento=COURB
+DataAbertura=30/07/2026 15:26:11
+Status=Fechado
+NomeTecnico=Joao
+Comentario=Foi trocado a tela
+DataAtualizacao=30/07/2026 15:30:14

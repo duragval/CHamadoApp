@@ -44,7 +44,7 @@ namespace ChamadoApp
             DataAtualizacao = dataAtualizacao;
         }
 
-        public Chamado(int id, string tipo, string descricao, string nomeFuncionario, string departamento) : this(id, tipo, descricao, nomeFuncionario, departamento DateTime.Now, StatusChamado.Aberto, null, null, null)
+        public Chamado(int id, string tipo, string descricao, string nomeFuncionario, string departamento) : this(id, tipo, descricao, nomeFuncionario, departamento, DateTime.Now, StatusChamado.Aberto, null, null, null)
         {
         }
 

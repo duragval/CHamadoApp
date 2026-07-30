@@ -205,10 +205,75 @@ namespace ChamadoApp
                     Console.WriteLine($"Id: {c.Id} | Tipo: {c.Tipo} | Status: {c.Status} | Funcionário: {c.NomeFuncionario}");
                 }
 
-                Console.WriteLine("\nDigite o Id do chamado que deseja atualizar (ou 0 para voltar ao menu principal):");
+                Console.WriteLine("\nDigite o Id do chamado que deseja atualizar ( 0 para voltar ao menu principal):");
                 var idTexto = Console.ReadLine();
 
-                if
+                if (!int.TryParse(idTexto, out int idEscolhido))
+                {
+                    Console.WriteLine("\nId inválido.\n");
+                    continue;
+                }
+
+                if (idEscolhido == 0)
+                {
+                    return;
+                }
+
+                var chamado = chamados.FirstOrDefault(chamado => chamado.Id == idEscolhido);
+
+                if (chamado == null)
+                {
+                    Console.WriteLine("Chamado não encontrado");
+                    continue;
+                }
+
+                Console.WriteLine("\n1.Em andamento\n2.Resolvido\n");
+                var opcaoStatus = Console.ReadLine();
+
+                StatusChamado novoStatus;
+                if (opcaoStatus == "1")
+                {
+                    novoStatus = StatusChamado.Andamento;
+                }
+                else if (opcaoStatus == "2")
+                {
+                    novoStatus = StatusChamado.Fechado;
+                }
+                else
+                {
+                    Console.WriteLine("\nOpção inválida.\n");
+                    continue;
+                }
+
+                Console.WriteLine("Comentário (não use quebra de linha / Enter no meio do texto):");
+                var comentario = Console.ReadLine();
+
+                Console.WriteLine("\nConfira a atualização:\n");
+                Console.WriteLine($"Chamado: {chamado.Id}");
+                Console.WriteLine($"Novo status: {novoStatus}");
+                Console.WriteLine($"Técnico: {tecnico.Nome}");
+                Console.WriteLine($"Comentário: {comentario}\n");
+
+                Console.WriteLine("Confirma a atualização? (S/N)");
+                var resposta = Console.ReadLine();
+
+                if (resposta?.Trim().ToUpper() == "S")
+                {
+                    try
+                    {
+                        chamado.AtualizarStatus(tecnico.Nome, comentario, novoStatus);
+                        _service.Atualizar(chamado);
+                        Console.WriteLine("\nChamado atualizado com sucesso.\n");
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"\nErro ao atualizar chamado: {ex.Message}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("\nAtualização descartada\n");
+                }
             }
         }
     }

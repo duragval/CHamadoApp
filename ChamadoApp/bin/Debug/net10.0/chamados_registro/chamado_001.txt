@@ -1,0 +1,10 @@
+Id=1
+Tipo=Software
+Descricao=meu acad precisa de atualizacao
+NomeFuncionario=Varlei
+Departamento=COURB
+DataAbertura=30/07/2026 15:25:01
+Status=Andamento
+NomeTecnico=Joao
+Comentario=Em andamento
+DataAtualizacao=30/07/2026 15:29:46
